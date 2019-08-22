@@ -114,5 +114,12 @@ class TicTacToe
     while over? == false
       turn
     end
+    if winner == "X"
+      puts "good job X"
+    elsif winner == "O"
+        puts "good job O"
+    else
+      puts "Cat's Game!"
+    end
   end
 end
