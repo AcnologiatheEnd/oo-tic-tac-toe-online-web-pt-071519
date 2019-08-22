@@ -90,7 +90,7 @@ class TicTacToe
     if won?
       return false
     else
-      true
+      return true
   end
         
 end
