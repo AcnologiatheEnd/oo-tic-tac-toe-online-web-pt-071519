@@ -105,7 +105,7 @@ class TicTacToe
       elsif @board[routes[0]] == "O" &&  @board[routes[1]] == "O" &&  @board[routes[2]] == "O"
        return "O"
       else
-        puts nil
+        return nil
       end
     end
   end
