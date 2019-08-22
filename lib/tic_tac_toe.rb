@@ -110,4 +110,4 @@ class TicTacToe
     end
   end
 end
-TicTacToe.turn
+TicTacToe.initialize
