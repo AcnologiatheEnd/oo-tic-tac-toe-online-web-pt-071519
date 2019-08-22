@@ -99,13 +99,13 @@ class TicTacToe
   end
   
   def winner
-    WIN_COMBINATIONS.each do |routes|
+    WIN_COMBINATIONS.detect do |routes|
       if @board[routes[0]] == "X" &&  @board[routes[1]] == "X" &&  @board[routes[2]] == "X"
        return "X"
       elsif @board[routes[0]] == "O" &&  @board[routes[1]] == "O" &&  @board[routes[2]] == "O"
        return "O"
       else
-        return nil
+        nil
       end
     end
   end
