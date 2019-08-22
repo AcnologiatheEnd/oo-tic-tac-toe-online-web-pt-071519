@@ -98,7 +98,7 @@ class TicTacToe
     if draw? || won?
       return true
     else
-      false
+      return false
     end
     
   end
